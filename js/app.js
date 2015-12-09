@@ -5,7 +5,7 @@ function enterMessage() {
 		yourMessage = document.getElementById("message").value,
 		h2 = document.createElement("h2"),
 		p = document.createElement("p"),
-		theSelection = document.getElementById("theSelect").value;
+		theSelection = Number(document.getElementById("theSelect").value);
 	h2.innerHTML = yourName;
 	p.innerHTML = yourMessage;
 	console.log(theSelection)
