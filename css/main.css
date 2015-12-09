@@ -1,0 +1,18 @@
+h1,
+h2,
+h3,
+p,
+form,
+select {
+	text-align: center;
+}
+
+textarea {
+	height: 100px;
+	width: 450px;
+}
+
+select {
+	display: block;
+	margin: 20px auto;
+}
